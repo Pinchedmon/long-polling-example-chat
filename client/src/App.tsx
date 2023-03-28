@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import LongPolling from "./LongPolling";
+import Websoc from "./Websoc";
 function App() {
   return (
-    <>
-      <LongPolling />
-    </>
+    <div>
+      <Websoc />
+    </div>
   );
 }
 
